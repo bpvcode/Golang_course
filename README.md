@@ -1,4 +1,4 @@
-# 🔵 Go lang - udemy course
+# 🔵 Go - udemy course
 
 **Go (Golang): Explorando a Linguagem do Google - 11,5 h**
  
