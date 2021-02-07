@@ -4,7 +4,7 @@ import "fmt"
 
 type nota float64 //Criamos um tipo nosso a partir de um tipo float64
 
-func (n nota) resultadoNota(inicio, fim float64) bool { //Criamos um método que só vai ser usado pelo tipo que criamos acima que será o receiver (n nota)
+func (n nota) resultadoNota(inicio, fim float64) bool { //Criamos um método que só vai ser usado pelo type que criamos acima, que será o receiver (n nota)
 	return float64(n) >= inicio && float64(n) <= fim
 }
 
