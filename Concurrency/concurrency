@@ -1,0 +1,9 @@
+Concorrência vs Paralelismo
+
+Paralelismo - Estamos a fazer 2 coisas exatamente ao mesmo tempo (Só existe se houver 2 ou mais processadores - multi core)
+Concorrência - Capacidade de intercalar varias processos que vão acontecer no mesmo processador
+
+Go é uma linguagem concorrente
+Concorrência viabiliza paralelismo
+
+Concorrência - forma de modular o programa.
