@@ -1,0 +1,9 @@
+Testes, apesar de serem considerados unitários em go, funcionam de forma diferente do java.
+
+Em go, não existem os mocks (utilizados por exemplo atraves da framework mockito), em que simulava a existência de um objecto por exemplo
+
+Se fizermos um teste a uma função, que invoca outra função dentro dela, não conseguimos simular o retorno da função interna a ser invocada através de um mock...
+
+Go procede mesmo à invocação da função interna e trabalha a partir do resultado da invocação da mesma para proceder aos testes.
+
+Pelo que os testes unitários em Go estão mais perto de testes de integração
