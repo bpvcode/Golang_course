@@ -33,6 +33,7 @@ func main() {
 		%d - inteiro
 		%t - boolean
 		%v - Serve para vários tipos diferentes - TIPO GENÉRICO
+		%T - imprime o tipo do valor que for passado
 	*/
 
 	fmt.Printf("O valor de x é %.2f \n", x) // Imprimir formatado a duas casa decimais .2
