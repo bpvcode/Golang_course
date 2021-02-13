@@ -34,6 +34,8 @@ func main() {
 		%t - boolean
 		%v - Serve para vários tipos diferentes - TIPO GENÉRICO
 		%T - imprime o tipo do valor que for passado
+		%b - imprime o valor binário do que lhe for passado
+		%#x - imprime o valor hexadecimal do que for passado
 	*/
 
 	fmt.Printf("O valor de x é %.2f \n", x) // Imprimir formatado a duas casa decimais .2
